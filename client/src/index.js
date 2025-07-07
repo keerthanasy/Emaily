@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(el);
 
 // Show the component on the screen
 root.render(<Provider store={store}><App /></Provider>);
-console.log('STRIPE KEY IS', process.env.STRIPE_KEY);
+console.log('STRIPE KEY IS', process.env.REACT_APP_STRIPE_KEY);
 console.log('Environment KEY IS', process.env.NODE_ENV);
 
 
